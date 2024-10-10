@@ -18,5 +18,5 @@ yarn client dev
 📜 서버 실행
 
 ```bash
-yarn server start
+yarn server start:dev
 ```
