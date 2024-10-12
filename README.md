@@ -11,7 +11,7 @@
 
 <br/>
 
-#### 1. [Offset Based Pagination VS Cursor Based Pagination]("./docs/pagination.md")
+#### 1. [Offset Based Pagination VS Cursor Based Pagination](./docs/pagination.md)
 
 
 
