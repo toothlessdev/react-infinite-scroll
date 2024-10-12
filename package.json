@@ -13,6 +13,17 @@
     ],
     "scripts": {
         "client": "yarn workspace client",
-        "server": "yarn workspace server"
+        "server": "yarn workspace server",
+        "start": "concurrently \"yarn workspace client dev\" \"yarn workspace server start:dev\""
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "concurrently": "^9.0.1",
+        "postcss": "^8.4.47",
+        "tailwindcss": "^3.4.13"
+    },
+    "dependencies": {
+        "react-router-dom": "^6.27.0",
+        "react-toastify": "^10.0.5"
     }
 }
