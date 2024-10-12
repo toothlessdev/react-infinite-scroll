@@ -2,8 +2,8 @@
 
 <span>
 <img src="https://img.shields.io/badge/reactjs-61DAFB?style=for-the-badge&logo=react&logoColor=gray">
-<img src="https://img.shields.io/badge/tanstack_query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white">
 <img src="https://img.shields.io/badge/tailwind_css-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"> 
+<img src="https://img.shields.io/badge/tanstack_query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white">
 <img src="https://img.shields.io/badge/nestjs-e0234e?style=for-the-badge&logo=nestjs&logoColor=white"> 
 <img src="https://img.shields.io/badge/typeorm-fe0803?style=for-the-badge&logo=typeorm&logoColor=white"> 
 <img src="https://img.shields.io/badge/sqlite-003b57?style=for-the-badge&logo=sqlite&logoColor=white">
