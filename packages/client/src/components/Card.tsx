@@ -1,6 +1,7 @@
 import { toast } from "react-toastify";
 import closeIcon from "../assets/close.svg";
 import { API_BASE_URL } from "../constants/env";
+import { forwardRef } from "react";
 
 export interface UserCardProps {
     id: number;
@@ -8,7 +9,7 @@ export interface UserCardProps {
     email: string;
 }
 
-export const UserCard = ({ id, name, email }: UserCardProps) => {
+export const UserCard = forwardRef<HTMLDivElement, UserCardProps>(({ id, name, email }, ref) => {
     const handleDelete = async () => {
         toast.promise(
             fetch(API_BASE_URL + `/users/${id}`, {
@@ -19,12 +20,12 @@ export const UserCard = ({ id, name, email }: UserCardProps) => {
                 pending: "삭제중...",
                 success: "삭제 완료!",
                 error: "삭제 실패!",
-            }
+            },
         );
     };
 
     return (
-        <div className="flex justify-between m-2 p-2 px-4 border-[1px] rounded-md border-gray-200">
+        <div ref={ref} className="flex justify-between m-2 p-2 px-4 border-[1px] rounded-md border-gray-200">
             <h2 className="text-lg ">
                 <span className="mr-3">{id}</span>
                 <span className="font-semibold">{name}</span>
@@ -37,4 +38,4 @@ export const UserCard = ({ id, name, email }: UserCardProps) => {
             </div>
         </div>
     );
-};
+});
