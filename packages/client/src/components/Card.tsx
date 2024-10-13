@@ -27,7 +27,7 @@ export const UserCard = ({ id, name, email }: UserCardProps) => {
         <div className="flex justify-between m-2 p-2 px-4 border-[1px] rounded-md border-gray-200">
             <h2 className="text-lg ">
                 <span className="mr-3">{id}</span>
-                <span>{name}</span>
+                <span className="font-semibold">{name}</span>
             </h2>
             <div className="flex gap-3">
                 <h2 className="text-lg">{email}</h2>
