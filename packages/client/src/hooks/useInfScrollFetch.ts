@@ -59,6 +59,7 @@ export const useInfScrollFetch = <D extends Record<string, unknown>[], E extends
             ❗️ 상태가 변경되면서 재렌더링이 일어나고 스크롤이 초기화되기 때문
             */
             const { scrollTop, scrollHeight, clientHeight } = scrollContainer;
+            console.table({ scrollTop, scrollHeight, clientHeight });
 
             if (scrollTop + clientHeight >= scrollHeight - offset) {
                 // ❗️ API 호출중이 아니고, 다음 페이지가 존재하면 API 호출
