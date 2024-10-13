@@ -3,6 +3,7 @@ import ScrollBased from "./pages/ScrollBased";
 import { Layout } from "./components/Layout";
 import { Fragment } from "react/jsx-runtime";
 import { ToastContainer } from "react-toastify";
+import ObserverBased from "./pages/ObserverBased";
 
 export default function App() {
     return (
@@ -24,6 +25,7 @@ export default function App() {
                     createRoutesFromElements(
                         <Route path="/" element={<Layout />}>
                             <Route index element={<ScrollBased />} />
+                            <Route path="/observer" element={<ObserverBased />} />
                         </Route>,
                     ),
                 )}

@@ -12,7 +12,7 @@ export const Layout = () => {
                     </li>
 
                     <li>
-                        <NavLink to="/" className="text-white">
+                        <NavLink to="/observer" className="text-white">
                             Intersection-Observer
                         </NavLink>
                     </li>
