@@ -11,10 +11,6 @@
 
 <br/>
 
-#### 1. [Offset Based Pagination VS Cursor Based Pagination](./docs/pagination.md)
-
-
-
 #### ❗️yarn 및 의존성 패키지 설치
 
 본 Repository 는 `yarn workspace` 모노레포로 구성되어있습니다. 실행전 `yarn` 을 설치해주세요
