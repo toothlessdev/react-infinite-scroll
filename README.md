@@ -11,6 +11,12 @@
 
 <br/>
 
+### ✍️ Intersection Observer 로 무한 스크롤 구현하기 (with. Cursor Based Pagination)
+
+https://toothlessdev.gitbook.io/main/web-develop/react-js/intersectionobserver-with.-cursor-based-pagination
+
+### 💿 실행 가이드
+
 #### ❗️yarn 및 의존성 패키지 설치
 
 본 Repository 는 `yarn workspace` 모노레포로 구성되어있습니다. 실행전 `yarn` 을 설치해주세요
